@@ -1,9 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Stethoscope, Scissors, Heart, Pill, Utensils, Home } from "lucide-react";
-import groomingService from "@/assets/grooming-service.jpg";
-import vetService from "@/assets/vet-service.jpg";
-import daycareService from "@/assets/daycare-service.jpg";
 
 const Services = () => {
   const services = [
@@ -11,21 +8,21 @@ const Services = () => {
       icon: <Stethoscope className="w-8 h-8" />,
       title: "Consultas Veterinárias",
       description: "Exames completos, vacinação, e acompanhamento da saúde do seu pet com veterinários especializados.",
-      image: vetService,
+      image: "/vet-service.jpg",
       features: ["Exames preventivos", "Vacinação completa", "Cirurgias", "Emergência 24h"]
     },
     {
       icon: <Scissors className="w-8 h-8" />,
       title: "Banho & Tosa",
       description: "Serviços de grooming profissional para manter seu pet sempre limpo, cheiroso e bonito.",
-      image: groomingService,
+      image: "/grooming-service.jpg",
       features: ["Banho especializado", "Tosa higiênica", "Corte de unhas", "Limpeza de ouvidos"]
     },
     {
       icon: <Home className="w-8 h-8" />,
       title: "Day Care",
       description: "Espaço seguro e divertido para seu pet socializar e brincar enquanto você está trabalhando.",
-      image: daycareService,
+      image: "/daycare-service.jpg",
       features: ["Supervisão profissional", "Atividades recreativas", "Socialização", "Refeições incluídas"]
     },
     {

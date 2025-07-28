@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star, Heart } from "lucide-react";
-import heroPets from "@/assets/hero-pets.jpg";
+
 
 const Hero = () => {
   return (
@@ -71,7 +71,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10">
               <img 
-                src={heroPets} 
+                src="/hero-pets.jpg" 
                 alt="Pets felizes no PetCare" 
                 className="w-full h-[600px] object-cover rounded-3xl shadow-2xl"
               />
