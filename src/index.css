@@ -8,33 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 38 100% 99%;
+    --foreground: 25 47% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 25 47% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 25 47% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 200 85% 45%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 40 85% 88%;
+    --secondary-foreground: 25 47% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 40 40% 96%;
+    --muted-foreground: 25 25% 55%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 30 85% 75%;
+    --accent-foreground: 25 47% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 40 25% 90%;
+    --input: 40 25% 90%;
+    --ring: 200 85% 45%;
+
+    /* Cores personalizadas para petshop */
+    --pet-orange: 30 95% 65%;
+    --pet-blue: 200 85% 45%;
+    --pet-green: 150 60% 50%;
+    --pet-cream: 40 85% 88%;
+    --pet-warm: 25 85% 95%;
+
+    /* Gradientes */
+    --gradient-hero: linear-gradient(135deg, hsl(200 85% 45%), hsl(180 70% 55%));
+    --gradient-warm: linear-gradient(135deg, hsl(40 85% 88%), hsl(30 95% 65%));
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(40 40% 98%));
+
+    /* Sombras */
+    --shadow-soft: 0 4px 20px hsl(200 85% 45% / 0.1);
+    --shadow-card: 0 8px 30px hsl(25 47% 15% / 0.08);
+    --shadow-hero: 0 20px 60px hsl(200 85% 45% / 0.2);
 
     --radius: 0.5rem;
 
